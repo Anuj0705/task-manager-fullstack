@@ -1,0 +1,97 @@
+/* Page */
+.dashboard-page {
+  background: #f1f5f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* Title */
+.dashboard-header h2 {
+  margin: 0;
+}
+
+/* Add Task Box */
+.task-form {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+.task-form input,
+.task-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Add Button */
+.add-btn {
+  background: #22c55e;
+  color: white;
+}
+
+/* Task Grid */
+.task-list {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+/* Task Card */
+.task-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+}
+
+
+
+/* Task Title */
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Task Info */
+.task-info {
+  font-size: 20px;
+  color: gray;
+}
+
+/* Buttons */
+.task-actions {
+  margin-top: 10px;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+/* Buttons common */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

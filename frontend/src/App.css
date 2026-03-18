@@ -1,0 +1,96 @@
+/* Global */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #eef2f7;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: #1e293b;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar button {
+  background: #ef4444;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Dashboard */
+.dashboard {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+/* Task Card */
+.task {
+  background: white;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.task:hover {
+  transform: scale(1.02);
+}
+
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+/* Inputs */
+input, select {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.link {
+  text-align: center;
+  margin-top: 15px;
+  color: #3b82f6;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
